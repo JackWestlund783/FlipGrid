@@ -19,7 +19,8 @@ function myFunction(){
     user.email = entry.elements[1].value;
     user.passWord = entry.elements[2].value;
 
-    window.location.href = "welcome.html?username=" + encodeURIComponent(user.name);
+    //name cannot contain =
+    window.location.href = "welcome.html?username=" + encodeURIComponent(user.name) + "?email=" + encodeURIComponent(user.email);
     console.log("clicked");
     //alert("Click detected");
 }

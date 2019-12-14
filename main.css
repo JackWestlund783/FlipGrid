@@ -1,6 +1,47 @@
 body {
     font-family: helvetica;
+    border: 15px solid gainsboro;
+    border-radius: 20px;
+    width: 400px;
+    height: 460px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
 }
+
+form {
+    font-family: Helvetica;
+    font-weight: bold;
+}
+
+#ip {
+    border-radius: 10px;
+    border: 1px solid darkgray;
+    height: 30px;
+    width: 380px;
+    margin-top: 5px;
+
+}
+
+#submit {
+    border-radius: 7px;
+    /* background: orangered; */
+    background-image: linear-gradient(to right, orangered, red);
+    opacity: .7;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 18px;
+    padding-left: 18px;
+    float: right;
+    margin-right: 20px;
+}
+/* h1 {
+    //color: darkslategray;
+} */
 
 ul {
     font-family: monospace;

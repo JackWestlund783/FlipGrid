@@ -11,6 +11,6 @@ window.onload = function () {
     // }
     
 
-    document.getElementById('name').innerHTML = username;
-    document.getElementById('email').innerHTML = email;
+    document.getElementById('name').innerHTML = decodeURIComponent(username);
+    document.getElementById('email').innerHTML = decodeURIComponent(email);
 }

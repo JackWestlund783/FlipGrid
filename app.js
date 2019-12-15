@@ -54,7 +54,7 @@ function getInput(){
 function checkEmail(email) {
     var index = email.indexOf('@');
     
-    if (index > 0 && index < email.length) {
+    if (index > 0 && index < email.length - 1) {
         return true;
     }
     else {
@@ -65,7 +65,14 @@ function checkEmail(email) {
 //ensures there is at least one uppercase letter, one lowercase letter, and a number
 function checkPassword(password) {
     if (!(password.toUpperCase() == password) && !(password.toLowerCase() == password)) {
-        return true;
+        
+        if (/\d/.test(password)) {
+            return true;
+        }
+        else {
+            return false;
+        }
+        
     }
     else {
         return false;

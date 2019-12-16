@@ -1,15 +1,5 @@
 'use strict';
 
-// let today = new Date();
-// let formatDate = today.toDateString();
-// let selectElement = document.getElementById('date');
-// selectElement.innerHTML = formatDate;
-
-
-// init: function () {
-//     x = 5;
-// }
-
 function myFunction(){
 
     var navigate = true;
@@ -41,13 +31,6 @@ function myFunction(){
     if (navigate) {
         window.location.href = "welcome.html?username=" + encodeURIComponent(user.name) + "?email=" + encodeURIComponent(user.email);
     }
-    //console.log("clicked");
-    //alert("Click detected");
-}
-
-function getInput(){
-    console.log("input detected");
-    
 }
 
 //checks if an @ sign exists in the middle of the email. Not fully checking all cases

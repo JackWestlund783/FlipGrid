@@ -1,3 +1,5 @@
+// This file contains the javascript for the login page
+
 'use strict';
 
 function myFunction(){

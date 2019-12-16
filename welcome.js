@@ -1,3 +1,5 @@
+// This file contains the javascript to display the welcome page
+
 'use strict'
 
 window.onload = function () {

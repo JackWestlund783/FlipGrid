@@ -1,3 +1,5 @@
+// This file contains unit tests for the app.js file
+
 describe("appSpec", function() {
 
     describe("checkMail", function() {
